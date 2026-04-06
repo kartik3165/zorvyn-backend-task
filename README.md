@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/kartik3165/zorvyn-backend-task.git
 cd zorvyn
 ```
 
