@@ -1,0 +1,31 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "alembic>=1.18.4",
+    "asyncpg>=0.31.0",
+    "fastapi>=0.135.3",
+    "passlib[argon2]>=1.7.4",
+    "psycopg[binary]>=3.3.3",
+    "pydantic[email]>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "python-jose[cryptography]>=3.5.0",
+    "redis>=7.4.0",
+    "sqlalchemy>=2.0.49",
+    "uvicorn>=0.43.0",
+    "python-dotenv>=1.2.2",
+    "uuid6>=2025.0.1",
+    "argon2-cffi>=25.1.0",
+    "psycopg2-binary>=2.9.11",
+    "pytest>=9.0.2",
+    "pytest-asyncio>=1.3.0",
+    "httpx>=0.28.1",
+    "aiosqlite>=0.22.1",
+]
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
